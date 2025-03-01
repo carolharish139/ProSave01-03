@@ -1,0 +1,65 @@
+.car-item {
+    background-color: #f5f5f5; /* צבע רקע חמים */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.12); /* הצללה מרשימה יותר */
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .car-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    background-color: #fff7e6; /* שינוי צבע רקע בזמן ריחוף */
+  }
+  
+  .car-item img {
+    width: 100%;
+    max-width: 230px;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .car-item img:hover {
+    transform: scale(1.1);
+  }
+  
+  .car-item h2 {
+    color: #333;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 15px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .car-item p {
+    color: #888;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .car-item a {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff7f50; /* צבע חדש לכפתור */
+    font-weight: bold;
+    padding: 12px 25px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .car-item a:hover {
+    background-color: #ff5c33; /* שינוי צבע בזמן ריחוף */
+    transform: translateY(-3px);
+  }
+  
+  .car-item a:active {
+    transform: translateY(3px);
+  }
+  

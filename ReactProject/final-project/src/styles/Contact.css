@@ -1,0 +1,13 @@
+.contact {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contact h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .contact p {
+    font-size: 18px;
+  }

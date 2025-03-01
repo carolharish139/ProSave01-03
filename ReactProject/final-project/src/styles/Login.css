@@ -1,0 +1,25 @@
+.login {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .login form {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .login input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 200px;
+  }
+  
+  button {
+    padding: 10px 20px;
+  }
+  
+  .error {
+    color: red;
+    font-weight: bold;
+  }
+  
